@@ -1,7 +1,8 @@
 package com.administrator.ysinteriortest.model;
 
 /**
- * Created by Administrator on 2016/5/26.
+ * 学校列表数据
+ * Created by amos on 2016/5/26.
  */
 public class ClassMsg {
     private String schoolName;
