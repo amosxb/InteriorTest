@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
 
 /**
  * description: 口语界面适配
- * User: shaobing
+ * User: amos
  * Date: 2016-06-07
  * Time: 18:35
  */

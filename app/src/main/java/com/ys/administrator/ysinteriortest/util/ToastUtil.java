@@ -5,7 +5,7 @@ import android.widget.Toast;
 
 /**
  * description:	Toast打印帮助类
- * User: shaobing
+ * User: amos
  * Date: 2016/6/14
  * Time: 16:41
  */

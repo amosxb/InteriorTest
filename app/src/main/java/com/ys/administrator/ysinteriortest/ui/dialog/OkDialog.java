@@ -16,7 +16,7 @@ import com.ys.administrator.ysinteriortest.R;
 /** 
 * @ClassName: CollectNewDialog 
 * @Description:自定义收藏目录中新建文件夹的dialog 
-* @author shaobing  
+* @author amos
 * @date 2016年3月10日 上午11:50:05 
 * @version V1.0 
 */

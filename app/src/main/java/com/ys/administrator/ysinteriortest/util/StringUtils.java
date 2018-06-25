@@ -10,7 +10,7 @@ import java.util.regex.PatternSyntaxException;
 
 /**
  * description: 字符串操作
- * User: shaobing
+ * User: amos
  * Date: 2016/6/14
  * Time: 16:40
  */

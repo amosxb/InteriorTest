@@ -2,7 +2,7 @@ package com.administrator.ysinteriortest.model;
 
 /**
  * description:
- * User: shaobing(2362017447@qq.com)
+ * User: amos(2362017447@qq.com)
  * Date: 2016-05-24
  * Time: 10:09
  */
