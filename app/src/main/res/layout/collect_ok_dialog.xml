@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/newdirectiondialog_shape"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+	        	<TextView
+	        	    android:layout_width="match_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:gravity="center"
+	        	    android:id="@+id/collect_dialog_title"
+					android:layout_marginTop="25dp"
+					android:layout_marginBottom="25dp"
+	        	    android:text="确定删除文件夹"
+	        	    android:textSize="28dp"
+	        	    android:textColor="#FF3498E1"
+	        	    />
+	        	<TextView
+	        	    android:layout_width="400dp"
+	        	    android:layout_height="2dp"
+	        	    android:background="#FFE2E2E2"
+	        	    />
+        	    <LinearLayout
+        	        android:layout_width="match_parent"
+        	        android:layout_height="60dp"
+        	        android:orientation="horizontal"
+        	        android:gravity="center"
+        	        >
+					<ImageView
+						android:layout_width="192dp"
+						android:layout_height="60dp"
+						android:src="@drawable/bro_collect_cancel_icon"
+						android:scaleType="centerInside"
+						android:id="@+id/collect_dialog_cancel"
+						/>
+		        	    <TextView
+		        	    android:layout_width="2dp"
+		        	    android:layout_height="60dp"
+		        	    android:background="#FFE2E2E2"
+		        	    />
+
+					<ImageView
+						android:layout_width="192dp"
+						android:layout_height="60dp"
+						android:src="@drawable/bro_collect_confirm_icon"
+						android:scaleType="centerInside"
+						android:id="@+id/collect_dialog_ok"
+						/>
+        	    </LinearLayout>
+
+</LinearLayout>

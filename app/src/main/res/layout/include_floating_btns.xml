@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lzp.floatingactionbuttonplus.FloatingActionButtonPlus xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/float_btn_plus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="-10dp"
+    android:layout_marginBottom="10dp"
+    app:mBackgroundColor="#99ffffff"
+    app:position="right_top"
+    app:animationMode="fade"
+    app:animationDuration="300"
+    app:switchFabColor="@color/colorPrimary"
+    app:switchFabIcon="@drawable/ic_add_white_48dp">
+
+
+    <com.lzp.floatingactionbuttonplus.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="切换WIFI">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#818aa7"
+            app:fabSize="mini" />
+
+    </com.lzp.floatingactionbuttonplus.FabTagLayout>
+
+    <com.lzp.floatingactionbuttonplus.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="选择APK进行下载">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#468cb7"
+            app:fabSize="mini" />
+
+    </com.lzp.floatingactionbuttonplus.FabTagLayout>
+
+    <com.lzp.floatingactionbuttonplus.FabTagLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:tagText="清除该班服务器数据">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#4BB7A7"
+        app:fabSize="mini" />
+
+</com.lzp.floatingactionbuttonplus.FabTagLayout>
+
+    <com.lzp.floatingactionbuttonplus.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="清除服务器数据">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#367291"
+            app:fabSize="mini" />
+
+    </com.lzp.floatingactionbuttonplus.FabTagLayout>
+
+
+    <com.lzp.floatingactionbuttonplus.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="单个登录">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#4B6F3B"
+            app:fabSize="mini" />
+
+    </com.lzp.floatingactionbuttonplus.FabTagLayout>
+</com.lzp.floatingactionbuttonplus.FloatingActionButtonPlus>

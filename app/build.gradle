@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.ys.administrator.ysinteriortest"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0.1"
+        //jdk 1.8版本
+        jackOptions {
+            enabled true
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    //jdk 1.8版本
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    //    compile files('libs/gson-2.6.2.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    compile 'com.android.support:design:23.3.0'
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.github.erd:android-volley:1.0.0'
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/MyUtils_v1.3.jar')
+    compile files('libs/butterknife-7.0.1.jar')
+    compile files('libs/eaglesoullink.jar')
+    compile 'com.lzp.floatingactionbutton:floatingactionbuttonplus:1.0.0'
+    compile 'com.trello:rxlifecycle:0.6.1'
+    //rxlifecycle
+    compile 'com.trello:rxlifecycle-components:0.6.1'
+    //Rxjava
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    //Retrofit2
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    //Okhttp3
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+    //eventbus
+    compile 'org.greenrobot:eventbus:3.0.0'
+    //mqtt推送
+    compile files('libs/org.eclipse.paho.client.mqttv3-1.0.2.jar')
+
+}

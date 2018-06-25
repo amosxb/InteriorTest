@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">测试APK</string>
+    <string name="loading_text">加载中</string>
+    <string name="no_data">没有数据</string>
+
+
+    <!--登录-->
+    <string name="failed_to_get_the_server_list">获取服务器列表失败</string>
+    <string name="get_the_data_is_empty">获取数据为空</string>
+    <string name="hint_auto_textview_name">输入用户名</string>
+    <string name="hint_auto_textview_password">输入wifi密码</string>
+    <string name="sign_in">登录</string>
+    <string name="login_password_cannot_empty">密码不能为空</string>
+    <string name="login_username_cannot_empty">用户名不能为空</string>
+    <string name="login_password_length">密码最少6位，最大20位</string>
+
+    <!--学校列表-->
+    <string name="failed_to_get_the_school_list">获取学校列表失败</string>
+
+    <!--基础操作类-->
+    <string name="switch_the_wifi">WIFI切换</string>
+    <string name="compile">编辑</string>
+    <string name="check_all">全选</string>
+    <string name="check_no_all">全不选</string>
+    <string name="school">学校：%s</string>
+    <string name="class_and_grade">班级：%s</string>
+    <string name="no_student_data">没有学生数据噢</string>
+    <string name="failed_to_get_student_list">获取学生列表失败</string>
+    <string name="number_of_people">人数：%d</string>
+    <string name="login_successfully">登录成功</string>
+    <string name="clear_server_data_success">清除数据成功</string>
+    <string name="clear_server_data_error">清除数据失败</string>
+    <string name="done_anything_yet">还未进行任何操作</string>
+    <string name="please_select_the_device_download">请选择要下载APK的设备</string>
+    <string name="select_the_test_machine_be_turned_off">请选择需要关闭测试的学生平板</string>
+    <string name="not_yet_selected_apk_to_download">还未选择要下载的apk</string>
+    <string name="send_successfully">发送成功</string>
+    <string name="send_error">发送失败</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="the_currently_selected_wifi">当前选择的WIFI:</string>
+    <string name="please_select_switch_WiFi_devices">请选择要切换WiFi的设备</string>
+    <string name="switch_is_WiFi">正在切换WiFi</string>
+    <string name="download_the_APK">是否下载这个APK?</string>
+    <string name="choose_the_apk_download">选择apk下载</string>
+    <string name="get_the_air_receiver_address_blank">获取服务器地址为空</string>
+
+    <!--apk下载类-->
+    <string name="get_the_apk_list_failed">获取apk列表失败</string>
+
+</resources>
